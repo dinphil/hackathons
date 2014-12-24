@@ -1,0 +1,270 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>/* Typography */
+
+@font-face {
+  font-family: Helvetica;
+  src: url("HelveticaNeueLTStd-Th.otf") format("opentype");
+}
+
+
+body {
+  font: 1em "Open Sans", Helvetica Neue, sans-serif;
+  color: #333333; }
+
+h1 {
+  font-weight: 400;
+  font-size: 2.5em;
+  border: none; }
+
+h2 {
+  font-weight: 300;
+  line-height: 1.4;
+  font-size: 1.5em;
+  border: none; }
+
+h3 {
+  font-weight: 300;
+  font-size: 1.3em;
+  color: #972e2e; }
+
+h4 {
+  font-weight: 300;
+}
+
+p, ol, ul {
+  letter-spacing: 0.07em;
+  font-family: "Helvetica";
+  font-size: 1em;
+  line-height: 1.4em;
+  color: #444444;
+  font-weight: 300; }
+
+
+
+
+/* Body, Navbar blocks*/
+body {
+  margin: 30px auto;
+  max-width: 1280px;
+  width: 90%;
+  position: relative;
+  height: auto;
+  padding: 0px;
+  border: #2e4b97 solid 2px;
+  background: white;
+}
+
+.hidden{
+  display: none;
+}
+
+.nav-items{
+  display: block;
+  float: center;
+  background: white;
+  text-align: center;
+  position: relative;
+  font-size: 1em;
+  box-shadow: 0 0 5px #2e4b97;
+  -webkit-box-shadow: 0 0 5px #2e4b97;
+  -moz-box-shadow: 0 0 5px #2e4b97;
+}
+  .nav-items div{
+    color: #ababab;
+    background-color: white;
+    display: inline-block;
+    padding: 10px 10px;
+    font-weight: lighter;
+  }
+  .nav-item{
+    color: #2e4b97;
+    background: none;
+    display: inline-block;
+  }
+  .nav-item:hover{
+    background-color: #2e4b97;
+    color: white;
+    cursor: pointer;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+  }
+  
+/* Content styles */
+
+   h1{
+    color: #2e4b97;
+    text-transform: uppercase;
+    text-align: center;
+   }
+   h2{
+    margin: auto;
+    text-align: center;
+    color: #972e2e;
+   }
+   h1,h2,h3,h4{
+    text-align: center;
+   }
+   p{
+    margin: 10px 10%;
+    color: #111111;
+    font-size: 1em;
+    display: block;
+    text-align: justify;
+    padding: 10px;
+    font-weight: 300;
+   }
+   a{
+      text-decoration: none;
+      color: #972e2e;
+      font-weight: 300;
+    }
+    a:hover {
+      text-decoration: none;
+      color: #972e2e;
+    }
+   em{
+    background: #972e2e;
+    color: white;
+    padding: 0.17em;
+    font-weight: 300;
+    font-size: 1em;
+    text-decoration: none;
+   }
+   blockquote{
+    margin: 20px 10%;
+   }
+   ol, ul {
+    margin: 20px 12%;
+   }
+   img{
+    margin: auto;
+    display: inherit;
+   }
+
+/* Code blocks */
+pre{
+  text-align: left;
+  font-weight: 300;
+  font-size: 0.8em;
+  background: #2e4b97;
+  margin: 0;
+  overflow: scroll;
+}
+  code{
+    background: #2e4b97;
+    color: white;
+    font-size: 0.8em;
+    padding: 0.1em;
+    font-weight: 300;
+  }
+
+/* Image syles */
+img{
+  display: block;
+  position: relative;
+  max-width: 100%;
+}
+img.full-img{
+  display: block;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+  .img-caption{
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    font-weight: 300;
+    float: right;
+    font-size: 0.6em;
+    color: white;
+    background: #2e4b97;
+    padding: 2px;
+    margin-top: 0;
+  }
+
+/* Footer */
+.footer{
+  font-size: 0.5em;
+  padding: 2px;
+  border-top: #2e4b97 solid 2px;
+}
+  .footer p{
+    padding: 0;
+    text-align: center;
+    margin: 5px;
+  }
+
+/* Media Query for tablets and small desktops */
+@media screen and (max-width: 1075px) {
+  html, body{
+    margin : 0px 0px 0px 0px; 
+    width : 100%;
+    border : none;
+  }
+}
+/* Media Query for phones/phablets */
+@media screen and (max-width: 860px){
+  p{
+    margin: 15px;
+  }
+  blockquote{
+    margin: 15px;
+  }
+}
+</style><title>chrome-tutorial</title></head><body><article class="markdown-body"><div class="hidden"><meta property="og:image" content="http://the-dining-philosophers.github.io/code-weekend/assets/img/logo.png"><link rel="shortcut icon" href="assets/images/favicon.png"><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"><link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' type='text/css'></div>
+
+<p><img class="full-img" src="assets/img/logo.png"></p>
+<h1 id="intro-to-chrome-extensions"><a name="user-content-intro-to-chrome-extensions" href="#intro-to-chrome-extensions" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Intro To Chrome Extensions</h1>
+<p>Here, we&rsquo;ll step through the process of creating a simple Chrome extension. At the end of this tutorial, you&rsquo;ll have a working Chrome extension that displays a list of links to your ten most recent bookmarks.</p>
+<h3 id="the-basics"><a name="user-content-the-basics" href="#the-basics" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>The Basics</h3>
+<p>Every browser action Chrome extension has four fundamental parts:</p>
+<ul>
+<li>the manifest (written in JSON), </li>
+<li>the HTML for the popup that shows up when you click the icon, </li>
+<li>the JavaScript that runs when you click the icon, and </li>
+<li>the icon (picture) itself. </li>
+</ul>
+<p>We&rsquo;ll go through each of these in further detail with regards to the Chrome extension we want to make. <br />
+Browser action Chrome extensions are global and execute whenever the icon is clicked.</p>
+<h3 id="the-manifest-file"><a name="user-content-the-manifest-file" href="#the-manifest-file" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>The Manifest File</h3>
+<p>The manifest file can be seen as the &ldquo;introduction&rdquo; to your Chrome extension. It summarizes what it is, what it does, and what it needs. Chrome needs this manifest to know what your extension&rsquo;s name is, its associated icon, what permissions it will need, etc. </p>
+<p>Every manifest file starts with a declaration of the manifest version (2). Afterwards, it specifies the name and description, which are relatively self-explanatory. After that, since we want our Chrome extension to be a browser action extension, we specify that as well as the default icon and the HTML that will render our popup. Finally, we want to specify that we want permission to access Chrome&rsquo;s bookmarks.</p>
+<h3 id="the-html-popup"><a name="user-content-the-html-popup" href="#the-html-popup" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>The HTML Popup</h3>
+<p>If you&rsquo;ve ever done any web design, this should be pretty clear. Between the style tags, I put in some CSS to make the popup a bit prettier. It&rsquo;s definitely okay to link an external stylesheet if you&rsquo;d like - I just chose to put it in the HTML because it was so short. Finally, you&rsquo;ll see at the very bottom that I linked in the JavaScript file using script tags - that will actually create the list of bookmarks.</p>
+<h3 id="the-javascript-file"><a name="user-content-the-javascript-file" href="#the-javascript-file" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>The JavaScript File</h3>
+<p>Here, you&rsquo;ll see that we created an ordered list and looped through the list of bookmarks to append the title of each link to the list. On click, we added a click listener that opens a new Chrome tab that will navigate to the link you clicked on.</p>
+<h3 id="the-icon"><a name="user-content-the-icon" href="#the-icon" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>The Icon</h3>
+<p>The icon can technically be of any size, but Chrome encourages you to always provide a 128x128 pixel icon.</p>
+<h3 id="building-the-extension"><a name="user-content-building-the-extension" href="#building-the-extension" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Building The Extension</h3>
+<p>Great! We have all the necessary parts. Now to actually put them together into a working extension&hellip;</p>
+<p>This is easier than you think. Navigate to your extensions page (type &ldquo;chrome://extensions/&rdquo; into your address bar) and check the box next to &ldquo;Developer mode&rdquo;. This will create an extra line of three buttons - click &ldquo;Load unpacked extension&hellip;&ldquo;. Now simply select the directory that all of your files are in and press &ldquo;Select&rdquo;. This should load up your extension and the icon should show up in your browser&rsquo;s upper right corner! Click the icon to check that the popup is working correctly.</p>
+<p>If not, Chrome Developer Tools will be your best friend. Right click your icon and select &ldquo;Inspect popup&rdquo;. This will bring up the Chrome Dev Tools window, which provides you with tons of information and debugging help.</p>
+<div class="footer"><p>&copy; Dining Philosophers 2014. Page created by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>.</div>
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script src="assets/js/nav.js"></script>
+
+<script src="assets/js/FlowType.js"></script>
+
+<script type="text/javascript">
+    $('.markdown-body').flowtype({
+        minimum   : 500,
+        maximum   : 1000,
+        minFont   : 16,
+        maxFont   : 65,
+        fontRatio : 40
+    });
+</script>
+
+<script>
+    $(window).load(function(){
+        $('.loading').fadeOut('200');
+    });
+</script></article></body></html>
