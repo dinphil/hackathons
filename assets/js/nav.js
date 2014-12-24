@@ -2,24 +2,17 @@
 
 $(document).ready(function(){
 
-    $('#cw-menu').click(function(){
+    $('#pennhack-menu').click(function(){
         
         $('html, body').animate({
-            scrollTop: $("#cw-section").offset().top
+            scrollTop: $("#pennhack-section").offset().top
         }, 500);
         
     }); 
-    $('#cc-menu').click(function(){
+    $('#learning-menu').click(function(){
         
         $('html, body').animate({
-            scrollTop: $("#cc-section").offset().top
-        }, 500);
-        
-    });
-    $('#hack-menu').click(function(){
-        
-        $('html, body').animate({
-            scrollTop: $("#hack-section").offset().top
+            scrollTop: $("#learning-section").offset().top
         }, 500);
         
     });
