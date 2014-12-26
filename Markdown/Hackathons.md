@@ -19,7 +19,7 @@ Learning Resources <a id="learning-section"></a>
 Pages and pages of tips to learn new tools and languages
 ------------------------------------
 
-These materials are curated from across the Internet to be useful and avoid redundancy. They’re designed to be a one-stop shop for you hackathon needs.
+These materials are curated from across the Internet to be useful and avoid redundancy. They’re designed to be a one-stop shop for your hackathon needs.
 
 Coming soon:
 
@@ -29,7 +29,7 @@ Coming soon:
 - Intro to HTML/CSS
 - Node.js Tutorial
 
-<div class="footer"><p>&copy; Dining Philosophers 2014. Page created by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>.</div>
+<div class="footer"><p>&copy; Dining Philosophers 2015. Page created by <a href="http://pvrnav.com">Pranav Vishnu Ramabhadran</a>.</div>
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="assets/js/nav.js"></script>
@@ -41,10 +41,5 @@ Coming soon:
         minFont   : 16,
         maxFont   : 65,
         fontRatio : 40
-    });
-</script>
-<script>
-    $(window).load(function(){
-        $('.loading').fadeOut('200');
     });
 </script>
